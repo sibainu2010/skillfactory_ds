@@ -3,4 +3,5 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 
 ## Проекты
 
-[Проект 0. Визуализация данных](https://github.com/sibainu2010/skillfactory_ds/blob/main/PYTHON-13.Искусство%20визуализации.ipynb)
+[Проект 0. Программа находит число меньше чем за 20 попыток](https://github.com/sibainu2010/skillfactory_ds/blob/main/project_0/Копия_блокнота__baseline_ipynb_.ipynb)
+[Проект 1. Визуализация данных](https://github.com/sibainu2010/skillfactory_ds/blob/main/PYTHON-13.Искусство%20визуализации.ipynb)
