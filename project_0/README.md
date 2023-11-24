@@ -1,5 +1,5 @@
 # Проект 0. Угадай число
-
+[Файл Угадай число](https://github.com/sibainu2010/skillfactory_ds/blob/main/project_0/Угадай%20число.ipynb)
 ## Оглавление проекта
 [1. Описание проекта](https://github.com/sibainu2010/skillfactory_ds/blob/main/project_0/README.md#Описание-проекта)
 
