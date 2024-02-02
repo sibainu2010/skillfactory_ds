@@ -1,7 +1,7 @@
 # Проект 3. Анализ резюме из HeadHunter
 [Файл Анализ резюме из HeadHunter](https://github.com/sibainu2010/skillfactory_ds/blob/main/project_3/PROJECT-2.Анализ%20вакансий%20из%20HeadHunter.ipynb)
 
-[Все графики в форматах (png, html)](https://drive.google.com/drive/folders/1UzqKPkVCMD9ZydkCcIAQ74VDvpdH3L5K?usp=sharing)
+[Все графики в форматах (png, html)](https://github.com/sibainu2010/skillfactory_ds/tree/main/project_3/график%20в%20html%20и%20png)
 
 [Файл recuirements](https://github.com/sibainu2010/skillfactory_ds/blob/main/project_2/PROJECT-1.Анализ%резюме%из%HeadHunter.ipynb)
 
