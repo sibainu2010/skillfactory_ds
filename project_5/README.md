@@ -1,5 +1,5 @@
 # Проект 5. ИССЛЕДОВАНИЕ ДАННЫХ HR-АГЕНТСТВА
-[Файл Сегментация клиентов онлайн магазина](https://github.com/sibainu2010/skillfactory_ds/blob/main/project_6/PROJECT-6._%D0%A1%D0%B5%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2_%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0.ipynb)
+[Файл Сегментация клиентов онлайн магазина](https://github.com/sibainu2010/skillfactory_ds/blob/main/project_5/PROJECT-5._%D0%A1%D0%B5%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2_%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0.ipynb)
 
 [Файл recuirements](https://github.com/sibainu2010/skillfactory_ds/blob/main/project_4/requirements.txt)
 
