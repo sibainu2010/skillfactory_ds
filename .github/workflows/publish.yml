@@ -3,7 +3,9 @@ name: Publish HTML to GitHub Pages
 on:
   push:
     branches: [ "main" ]
-    paths: [ "public/**" ]
+    paths:
+      - "public/**"
+      - "project_6/public/**"
   workflow_dispatch:
 
 jobs:
@@ -13,10 +15,23 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      
+      - name: Prepare deploy folder
+        run: |
+          mkdir -p ./deploy
+          if [ -d "./public" ]; then
+            cp -r ./public/. ./deploy/
+          fi
+          for f in *.html; do
+            [ -f "$f" ] && cp "$f" ./deploy/
+          done
+          if [ -d "./project_6/public" ]; then
+            mkdir -p ./deploy/project_6
+            cp -r ./project_6/public/. ./deploy/project_6/
+          fi
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./deploy
           publish_branch: gh-pages
+          keep_files: false
