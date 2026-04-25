@@ -1,0 +1,39 @@
+name: Publish HTML to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "project_6/public/**"   # триггер только когда меняются файлы проекта 6
+      - "project_5/public/**"   # или проекта 5 (добавь другие проекты по аналогии)
+  workflow_dispatch:             # также можно запустить вручную из GitHub
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # Собираем все public/ папки из всех проектов в одну temp папку
+      - name: Merge public folders
+        run: |
+          mkdir -p ./deploy
+          # копируем каждый проект в подпапку деплоя
+          if [ -d "./project_5/public" ]; then
+            cp -r ./project_5/public ./deploy/project_5
+          fi
+          if [ -d "./project_6/public" ]; then
+            cp -r ./project_6/public ./deploy/project_6
+          fi
+          echo "Files to deploy:"
+          find ./deploy -type f
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
+          publish_branch: gh-pages
+          keep_files: true   # не затирает старые файлы при деплое нового проекта
