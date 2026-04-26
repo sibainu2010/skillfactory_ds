@@ -10,7 +10,11 @@
       "Bash(git rm *)",
       "Bash(git fetch *)",
       "Bash(git ls-tree *)",
-      "Bash(xargs cat *)"
+      "Bash(xargs cat *)",
+      "Read(//c/Users/79654/**)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\79654\\\\Desktop\\\\sentiment-api\"; \\(Get-Item model.pkl\\).Length / 1MB)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -)"
     ]
   }
 }
